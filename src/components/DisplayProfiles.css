@@ -1,0 +1,38 @@
+.display-profiles-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .profiles-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .profiles-table th,
+  .profiles-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .profiles-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .profiles-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .profiles-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
